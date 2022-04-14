@@ -1,0 +1,13 @@
+[package]
+name = "rsmpeg-tes"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rsmpeg = "0.8.2"
+# rsmpeg = { git = "https://github.com/larksuite/rsmpeg", branch = "master" }
+anyhow = "1.0.56"
+cstr = "0.2.10"
+libc = "0.2"
